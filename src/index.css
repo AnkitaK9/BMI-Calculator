@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 100vh;
+  background-color:gainsboro;
+  position: fixed;
+}
+ 
+
+ 
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+  margin-left: 80px;
+}
+ 
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 15px 0;
+  background-color: #505b66;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.btn-outline {
+  background-color: #fff;
+  color: #A6BCDA;
+}
+ 
+.center {
+  text-align: center;
+  margin: 28px 0;
+  margin-left: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+p {
+  margin: 10px 0;
+}
+ 
+.headings{
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.caption{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;  
+}
+.Message{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: red;
+  font-size: medium;
+}
+
+.bmilogo{
+  width:400px;
+  height:300px;
+  margin-right: 80px;
+}
